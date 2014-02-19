@@ -1,4 +1,4 @@
-# xcode-file-templates
+# Xcode File Templates
 
 Collection of Xcode Templates
 
