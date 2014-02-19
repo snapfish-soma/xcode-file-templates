@@ -1,5 +1,6 @@
 ___IMPORTHEADER_cocoaTouchSubclass___
 
+
 @class ___FILEBASENAMEASIDENTIFIER___;
 	
 @protocol ___FILEBASENAMEASIDENTIFIER___Delegate <NSObject>
