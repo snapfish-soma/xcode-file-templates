@@ -56,4 +56,17 @@
     return cell;
 }
 
+#pragma mark - Debug
+
+- (NSString *)description
+{
+	// Remove this method if you're not implementing it.
+	return nil;
+}
+
+- (id)debugQuickLookObject
+{
+	return nil;
+}
+
 @end
