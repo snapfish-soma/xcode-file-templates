@@ -6,7 +6,6 @@ Collection of Xcode Templates
 
 ```
 $ cd ~/Library/Developer/Xcode/Templates/File\ Templates/
-$ rm -rf OCTemplates
 $ git clone git@github.com:otaviocc/xcode-file-templates.git OCTemplates
 ```
 
