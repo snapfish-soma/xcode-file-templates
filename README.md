@@ -5,13 +5,14 @@ Collection of Xcode Templates
 ## How to install
 
 ```
-$ cd ~/Library/Developer/Xcode/Templates/File\ Templates/
-$ git clone git@github.com:otaviocc/xcode-file-templates.git OCTemplates
+$ git clone git@github.com:otaviocc/xcode-file-templates.git
+$ cd xcode-file-templates
+$ make install
 ```
 
 ## How to update
 
 ```
-$ cd ~/Library/Developer/Xcode/Templates/File\ Templates/OCTemplates
 $ git pull origin master
+$ make uninstall install
 ```
