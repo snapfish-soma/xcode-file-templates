@@ -13,7 +13,7 @@
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___Spec.m</string>
+	<string>___FILEBASENAME___Test.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -38,6 +38,6 @@
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>Summary</key>
-	<string>A XCTest Spec</string>
+	<string>A XCTest Test</string>
 </dict>
 </plist>

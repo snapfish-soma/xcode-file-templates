@@ -1,11 +1,11 @@
 #import <XCTest/XCTest.h>
 #import "___FILEBASENAME___.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Spec : ___FILEBASENAMEASIDENTIFIER___
+@interface ___FILEBASENAMEASIDENTIFIER___Test : ___FILEBASENAMEASIDENTIFIER___
 
 @end
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Spec
+@implementation ___FILEBASENAMEASIDENTIFIER___Test
 
 #pragma mark - Setup
 
