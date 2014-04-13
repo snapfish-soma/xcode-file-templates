@@ -1,7 +1,11 @@
 #import <XCTest/XCTest.h>
 #import "___FILEBASENAME___.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Test : ___FILEBASENAMEASIDENTIFIER___
+@interface ___FILEBASENAMEASIDENTIFIER___ (Test)
+
+@end
+
+@interface ___FILEBASENAMEASIDENTIFIER___Test : XCTestCase
 
 @end
 
