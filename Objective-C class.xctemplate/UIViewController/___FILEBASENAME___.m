@@ -20,7 +20,7 @@
     return self;
 }
 
-#pragma mark - View licefycle
+#pragma mark - View life cycle
 
 - (void)viewDidLoad
 {
