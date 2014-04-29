@@ -1,4 +1,4 @@
-DESTDIR=~/Library/Developer/Xcode/Templates/File\ Templates/OCTemplates
+DESTDIR=~/Library/Developer/Xcode/Templates/File\ Templates/Snapfish
 
 install:
 	mkdir -p $(DESTDIR)
