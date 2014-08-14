@@ -20,16 +20,31 @@
     return self;
 }
 
+#pragma mark - Accessibility
+
+- (BOOL)isAccessibilityElement
+{
+	// Return YES to turn it on...
+    return NO;
+}
+
+- (NSString *)accessibilityLabel
+{
+	// Implement this method if isAccessibilityElement returns YES...
+    return nil;
+}
+
+- (UIAccessibilityTraits)accessibilityTraits
+{
+	// Or some other trait that fits better...
+    return UIAccessibilityTraitStaticText;
+}
+
 #pragma mark - Debug
 
 - (NSString *)description
 {
 	// Remove this method if you're not implementing it.
-	return nil;
-}
-
-- (id)debugQuickLookObject
-{
 	return nil;
 }
 
