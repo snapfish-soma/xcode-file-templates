@@ -1,5 +1,9 @@
 #import <Specta/Specta.h>
+//#define EXP_SHORTHAND
+//#import <Expecta/Expecta.h>
+//#import <OCMock/OCMock.h>
 #import "___FILEBASENAME___.h"
+
 
 @interface ___FILEBASENAMEASIDENTIFIER___ (Test)
 
