@@ -9,7 +9,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyClass</string>
 	<key>Description</key>
-	<string>A Cedar Spec file.</string>
+	<string>A Cedar Spec File</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -17,27 +17,40 @@
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Description</key>
-			<string>The name of the class to spec</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Name</key>
-			<string>Class to Spec</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
+    	<key>Default</key>
+    	<string/>
+    	<key>Description</key>
+    	<string>The name of the class to spec</string>
+    	<key>Identifier</key>
+    	<string>cedarClass</string>
+    	<key>Name</key>
+    	<string>Class to Spec</string>
+    	<key>Required</key>
+    	<true/>
+    	<key>NotPersisted</key>
+    	<true/>
+    	<key>Type</key>
+    	<string>text</string>
+    </dict>
+    <dict>
+      	<key>Default</key>
+      	<string>___VARIABLE_cedarClass:identifier___</string>
+      	<key>Identifier</key>
+      	<string>productName</string>
+      	<key>Type</key>
+      	<string>static</string>
+    </dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
 	</array>
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>Summary</key>
 	<string>A Cedar Spec</string>
+	<key>isCedarTemplate</key>
+	<true/>
 </dict>
 </plist>
